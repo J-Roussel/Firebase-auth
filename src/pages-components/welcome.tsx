@@ -9,8 +9,8 @@ const Welcome: React.FunctionComponent<IWelcomeProps> = (props) => {
 
     return (
         <div className='center'>
-            <h2 className='white'>Welcome!</h2>
-            <button type="button" className="" onClick={() => signOut(auth)}>Sign out</button>
+            <h2 className='white'>Bienvenue!</h2>
+            <button type="button" className="btn" onClick={() => signOut(auth)}>SE DECONNECTER</button>
         </div>
     );
 };

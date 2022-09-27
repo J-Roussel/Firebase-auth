@@ -34,7 +34,7 @@ const Login: React.FC = () => {
 
         signInWithPopup(auth, new FacebookAuthProvider())
             .then(() => {
-                navigate('/home');
+                navigate('/welcome');
             })
             .catch((error) => {
                 console.log(error);
@@ -47,7 +47,7 @@ const Login: React.FC = () => {
 
         signInWithPopup(auth, new GithubAuthProvider())
             .then(() => {
-                navigate('/home');
+                navigate('/welcome');
             })
             .catch((error) => {
                 console.log(error);

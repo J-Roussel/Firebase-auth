@@ -21,7 +21,7 @@ const Login: React.FC = () => {
 
         signInWithPopup(auth, new GoogleAuthProvider())
             .then(() => {
-                navigate('/home');
+                navigate('/welcome');
             })
             .catch((error) => {
                 console.log(error);
